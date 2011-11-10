@@ -1,0 +1,19 @@
+= Testing =
+ * Test CircleImpl thoroughly, especially intersection
+ * Port old geohash SOLR-2155 extensive test
+ * Test sorting
+ * Test indexing shapes
+
+= Framework =
+ * SpatialContext should not be a singleton; tie to a field
+
+= Features =
+ * Use needScore local-param for use of Filter vs. ValueSource
+ ** Demonstrate score-sorted order in README, demo app
+ * Port & hack geodist() query parser for compatibility with LSP
+ * Implement proper polygon world-wrap & pole-wrap. Look elsewhere for ideas
+ * *Benchmarking!*
+
+= Misc =
+ * Investigate how R-Trees differ from the RecursivePrefixFilter.
+ * Are there things we need to do to be more compatible with [http://www.opengeospatial.org/standards OGC]?
