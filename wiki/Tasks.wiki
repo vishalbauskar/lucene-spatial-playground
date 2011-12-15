@@ -1,19 +1,21 @@
 = Testing =
  * Test CircleImpl thoroughly, especially intersection
  * Port old geohash SOLR-2155 extensive test
- * Test sorting
+ * ~~Test sorting~~
  * Test indexing shapes
 
-= Framework =
- * SpatialContext should not be a singleton; tie to a field
+= Framework Rework/Refactor =
+ * SpatialContext should not be a singleton; tie to a field.
+ * SpatialContext (with units, calculator, and world bounds) and the prefix trie impl, should be configurable in a Solr field type.
 
 = Features =
- * Use needScore local-param for use of Filter vs. ValueSource
- ** Demonstrate score-sorted order in README, demo app
+ * ~~Use needScore local-param for use of Filter vs. ValueSource~~
+  * Demonstrate score-sorted order in README, demo app
  * Port & hack geodist() query parser for compatibility with LSP
  * Implement proper polygon world-wrap & pole-wrap. Look elsewhere for ideas
  * *Benchmarking!*
 
 = Misc =
- * Investigate how R-Trees differ from the RecursivePrefixFilter.
+ * ~~Investigate how R-Trees differ from the RecursivePrefixFilter.~~ -- not same!
+  * Find prior-art for Trie implementation of spatial (point, and shape/area too).
  * Are there things we need to do to be more compatible with [http://www.opengeospatial.org/standards OGC]?
