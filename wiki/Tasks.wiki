@@ -7,7 +7,7 @@
 = Framework Rework/Refactor =
  * ~~SpatialContext should not be a singleton; tie to a field.~~
  * ~~SpatialContext (with units, calculator, and world bounds) and the prefix trie impl, should be configurable in a Solr field type.~~
- * Make SpatialPrefixTree impl configurable via a factory, and use it from Solr field type.
+ * ~~Make SpatialPrefixTree impl configurable via a factory, and use it from Solr field type.~~
  * distPrec of query should default to that configured on the field.  And add localParams lookup?
 
 = Features =
