@@ -15,7 +15,7 @@
   * Demonstrate score-sorted order in README, demo app
  * Port & hack geodist() query parser for compatibility with LSP
  * *Benchmarking!*
- * Range query [... TO ...] input method.
+ * ~~Range query [... TO ...] input method.~~
 
 = Misc =
  * ~~Investigate how R-Trees differ from the RecursivePrefixFilter.~~ -- not same!
