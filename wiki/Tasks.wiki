@@ -4,6 +4,9 @@
  * ~~Test sorting~~
  * Test indexing shapes with area
 
+= Performance / Efficiency =
+In single valued field case, RecursivePrefix... should use a more efficient cache representation for sorting
+
 = Framework Rework/Refactor =
  * ~~SpatialContext should not be a singleton; tie to a field.~~
  * ~~SpatialContext (with units, calculator, and world bounds) and the prefix trie impl, should be configurable in a Solr field type.~~
