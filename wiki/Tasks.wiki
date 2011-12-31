@@ -1,5 +1,5 @@
 = Testing =
- * Test CircleImpl thoroughly, especially intersection
+ * ~~Test CircleImpl thoroughly, especially intersection~~
  * ~~Port old geohash SOLR-2155 extensive test~~
  * ~~Test sorting~~
  * Test indexing shapes with area
