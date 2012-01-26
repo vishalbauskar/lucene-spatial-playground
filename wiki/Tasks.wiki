@@ -27,6 +27,14 @@ In single valued field case, RecursivePrefix... should use a more efficient cach
   * RectangleImpl constructor args order?
   * IntersectCase enum naming
   * Spatial operations naming
+  * DistanceCalculator contains context instead of radius?
+  * interpretation of "d" in Circle; degrees or distance?
 
-= Extras / Demo Related =
+
+----
+=Not important for 1st Release=
+ * CircleImpl support for dateline wrap or another subclass.  Some people may want a circle as projected on mercator, not a true great-circle-distance circle.
+
+
+== Extras / Demo Related ==
  * Implement proper polygon world-wrap & pole-wrap. Look elsewhere for ideas.
