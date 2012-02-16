@@ -33,7 +33,7 @@ In single valued field case, RecursivePrefix... should use a more efficient cach
 
 ----
 =Not important for 1st Release=
- * CircleImpl support for dateline wrap or another subclass.  Some people may want a circle as projected on mercator, not a true great-circle-distance circle.
+ * A CircleImpl based on cartesian 2d model with dateline wrap, no pole.  Some people may want a circle as projected on mercator, not a true great-circle-distance circle.
 
 
 == Extras / Demo Related ==
